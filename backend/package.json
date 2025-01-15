@@ -4,6 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ..",
     "tsoa": "tsoa",
     "tsoa:routes": "tsoa routes",
     "tsoa:spec": "tsoa spec",
