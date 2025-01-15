@@ -35,3 +35,7 @@ jobs:
         npm run build --if-present
         npm run eslint
         npm run typecheck
+    - name: Build Docker image
+      working-directory: ./backend
+      run: |
+        docker build -t my-app:latest .
